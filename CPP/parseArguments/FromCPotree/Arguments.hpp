@@ -4,6 +4,7 @@
 #include <unordered_map>
 #include <iostream>
 #include <algorithm>
+#include <sstream>
 
 using std::unordered_map;
 using std::vector;
@@ -11,6 +12,7 @@ using std::string;
 using std::cout;
 using std::cerr;
 using std::endl;
+using std::stringstream;
 
 class AValue{
 public:
