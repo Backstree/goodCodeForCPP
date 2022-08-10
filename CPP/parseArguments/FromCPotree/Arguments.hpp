@@ -254,7 +254,7 @@ public:
 
 		int keyColumnLength = 0;
 		for (auto key : keys) {
-			keyColumnLength = std::max(int(key.size()), keyColumnLength);
+			keyColumnLength = (std::max)(int(key.size()), keyColumnLength);
 		}
 		keyColumnLength = keyColumnLength + 2;
 
